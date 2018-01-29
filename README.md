@@ -26,6 +26,7 @@ PATH environment variable: Python, cURL, MySQL
 ## ASSUMPTION:
 
 1. Console to Isilon node is available
+2. For the Web GUI application, the JSON config template name was hardcoded into the HTML code
 
 ## INSTRUCTIONS:
 
@@ -36,7 +37,7 @@ PATH environment variable: Python, cURL, MySQL
 	type templateAppB.json
 	```
 	2. Run the Python application
-	`python isilonAssistant.py`
+	`python isilonAssistant.py --file <CONFIG_TEMPLATE>`
 
 * Execute application via Web GUI
 	1. Edit the JSON config template
