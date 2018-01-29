@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>isilonAssistantApp - Main</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+ 
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+ 
+        <div class="jumbotron">
+            <h1>isilonAssistantApp</h1>
+            <p class="lead"></p>
+            <p><a class="btn btn-lg btn-success" href="/deployTemplateAppA" role="button">Deploy Template for App A</a>
+            </p>
+            <p><a class="btn btn-lg btn-success" href="/deployTemplateAppB" role="button">Deploy Template for App B</a>
+            </p>
+        </div>
+ 
+
+        <h2>Template for App A</h2>
+		{% for line in outputA %}
+			{{ line.decode('UTF-8') }} </br>
+			{% endfor %}
+ 
+         <h2>Template for App B</h2>
+		{% for line in outputB %}
+			{{ line.decode('UTF-8') }} </br>
+			{% endfor %}
+			
+        <footer class="footer">
+            <p>&copy; Paul Nguyen 2018</p>
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>

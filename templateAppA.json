@@ -1,0 +1,22 @@
+{
+	"Console_CoordinateX": "313",
+	"Console_CoordinateY": "333",
+	"Cluster_Name": "c1",
+	"int-a_Netmask": "255.255.255.0",
+	"int-a_IPLow": "192.168.20.10",
+	"int-a_IPHigh": "192.168.20.19",
+	"ext-1_Netmask": "255.255.255.0",
+	"ext-1_IPLow": "192.168.10.10",
+	"ext-1_IPHigh": "192.168.10.19",
+	"DefaultGateway": "192.168.10.2",
+	"Serial_Node1": "SV200-000NZY-K3IL",
+	"Serial_Node2": "SV200-000NZY-C2AG",
+	"Serial_Node3": "SV200-000NZU-GSHN",
+	"NFS_Export1": "/ifs/data",
+	"Cluster_Username": "root",
+	"Cluster_Password": "a",
+	"Cluster_Port": "8080",
+	"API_SessionURI": "/session/1/session",
+	"API_NFSExportURI": "/platform/4/protocols/nfs/exports",
+	"API_ClusterAddNodeURI": "/platform/3/cluster/add-node"
+}
