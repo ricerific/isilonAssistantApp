@@ -30,30 +30,31 @@ PATH environment variable: Python, cURL, MySQL
 ## INSTRUCTIONS:
 
 * Execute application via CLI
-1. Edit the JSON config template
-```
-type templateAppA.json
-type templateAppB.json
-```
-2. Run the Python application
-`python isilonAssistant.py`
+	1. Edit the JSON config template
+	```
+	type templateAppA.json
+	type templateAppB.json
+	```
+	2. Run the Python application
+	`python isilonAssistant.py`
 
 * Execute application via Web GUI
-1. Edit the JSON config template
-```
-type templateAppA.json
-type templateAppB.json
-```
-2. Launch the Python Flask web application
-`python isilonAssistantApp.py`
-3. Open web browser and direct to the application URL
-`http://localhost:5000`
+	1. Edit the JSON config template
+	```
+	type templateAppA.json
+	type templateAppB.json
+	```
+	2. Launch the Python Flask web application
+	`python isilonAssistantApp.py`
+	3. Open web browser and direct to the application URL
+	`http://localhost:5000`
 
 ## VERSION:
 
 01/26/2018 v0.1.0
 
 ## AUTHORS:
+
 **Paul Nguyen**
 *paul.nguyen@emc.com*
 
@@ -64,6 +65,5 @@ Special thanks to many public forums, blogs, and books for inspiration in develo
 1. EMC Community Forum: Isilon SDK Info Hub (https://community.emc.com/docs/DOC-48273)
 2. Automate the Boring Stuff with Python (https://automatetheboringstuff.com/chapter18/)
 3. Creating a Web App From Scratch Using Python Flask and MySQL (https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972)
-4. MySQL Create and Call Stored Procedure (https://www.youtube.com/watch?v=yf7hZvUD1Lk)
-5. Learning Python 5th Edition - Mark Lutz - O'Reilly
-6. Introduction to Programing Using Python - Y Liang - Pearson
+4. Learning Python 5th Edition - Mark Lutz - O'Reilly
+5. Introduction to Programing Using Python - Y Liang - Pearson
